@@ -1,0 +1,57 @@
+{
+  "name": "app",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "7",
+    "@babel/plugin-transform-runtime": "7",
+    "@babel/preset-env": "7",
+    "@babel/runtime": "7",
+    "@types/node": "^17.0.40",
+    "@types/tailwindcss": "^3.0.10",
+    "autoprefixer": "^10",
+    "babel-loader": "8",
+    "compression-webpack-plugin": "9",
+    "css-loader": "^6.7.1",
+    "css-minimizer-webpack-plugin": "^4.0.0",
+    "eslint-plugin-tailwindcss": "^3.5.0",
+    "fork-ts-checker-webpack-plugin": "^7.2.11",
+    "mini-css-extract-plugin": "^2.6.0",
+    "mjml": "^4.12.0",
+    "postcss": "^8",
+    "postcss-loader": "^7.0.0",
+    "sass": "^1.52.2",
+    "sass-loader": "^13.0.0",
+    "shakapacker": "6.2.1",
+    "style-loader": "^3.3.1",
+    "tailwindcss": "^3",
+    "terser-webpack-plugin": "5",
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.7.3",
+    "webpack": "5",
+    "webpack-assets-manifest": "5",
+    "webpack-cli": "4",
+    "webpack-merge": "5"
+  },
+  "version": "0.1.0",
+  "babel": {
+    "presets": [
+      "./node_modules/shakapacker/package/babel/preset.js"
+    ]
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "devDependencies": {
+    "@types/jest": "^28.1.1",
+    "@typescript-eslint/eslint-plugin": "^5.27.0",
+    "@typescript-eslint/parser": "^5.27.0",
+    "eslint": "^8.17.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.5.3",
+    "stylelint": "^14.8.5",
+    "webpack-dev-server": "^4.9.1"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
