@@ -1,10 +1,8 @@
 source 'https://rubygems.org'
-gem 'aws-sdk-rails'
 gem 'bootsnap', require: false
 gem 'data_migrate'
 gem 'enumerize'
 gem 'jbuilder', '~> 2.7'
-gem 'mjml-rails'
 gem 'pg'
 gem 'power-types'
 gem 'puma', '~> 5.0'
@@ -14,6 +12,7 @@ gem 'rails-i18n'
 gem 'recipient_interceptor'
 gem 'sass-rails', '>= 6'
 gem 'scout_apm'
+gem 'send_grid_mailer'
 gem 'shakapacker', '~> 6.2.0'
 gem 'sidekiq'
 gem 'strong_migrations'
@@ -53,7 +52,6 @@ end
 
 group :development do
   gem 'annotate', '~> 3.0'
-  gem 'letter_opener'
   gem 'listen'
 end
 

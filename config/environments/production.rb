@@ -2,7 +2,6 @@ require Rails.root.join("config", "mailer")
 require "active_support/core_ext/integer/time"
 
 Rails.application.configure do
-  config.action_mailer.asset_host = "https://#{ENV.fetch('APPLICATION_HOST')}"
   config.force_ssl = true
   config.cache_classes = true
   config.eager_load = true

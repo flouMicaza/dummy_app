@@ -110,6 +110,9 @@ jobs:
           command: |
             cat coverage/coverage.txt | ./bin/reviewdog -reporter=github-pr-review -efm="%f:%l:%c: %m"
 
+      - run:
+          name: Run jest
+          command: yarn run test
 
       - store_test_results:
           path: test_results
